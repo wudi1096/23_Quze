@@ -16,6 +16,7 @@ def statement_generator(statement, decoration):
 def user(name):
     # question
     user_name = input(name)
+    return user_name
 
 def number_checker(age):
 
@@ -110,5 +111,5 @@ game_4 = Qusetion("Your friend sends you a text that is hurtful and makes you fe
 
 # the total score calculation and print the score
 total = game_1 + game_2 + game_3 + game_4
-statement_generator("Your score is {} ".format(total), "&")
-statement_generator("Thanks for doing the quiz", ")")
+statement_generator("{}Your score is {} ".format(user, total), "&")
+statement_generator("{}Thanks for doing the quiz".format(user), ")")
