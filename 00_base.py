@@ -33,7 +33,7 @@ def number_checker(age):
 
 
 
-# question function
+# qusetion function
 def Qusetion(question,A ,B ,C ,D , answer):
 
     trile = 3
@@ -96,11 +96,11 @@ game_2 = Qusetion("if your friend are start not play with you and start get away
                   print("D = find a new friend abandon your old friend"), "c")
 
 # Question 3
-game_3 = Qusetion("if all of your friend are going to a same university but you don't like that university?",
-                  print("A = just go to your friend's university friend are best."),
-                  print("B = choose a university you like and abandon your friend."),
-                  print("C = tall your friend to go to the university you like."),
-                  print("D = keep contact with your friend and go to the university you like."), "d")
+game_3 = Qusetion("if all of your friend are going to a same college but you don't like that college?",
+                  print("A = just go to your friend's college friend are best."),
+                  print("B = choose a college you like and abandon your friend."),
+                  print("C = tall your friend to go to the college you like."),
+                  print("D = keep contact with your friend and go to the college you like."), "d")
 
 # Question 4
 game_4 = Qusetion("Your friend sends you a text that is hurtful and makes you feel bad about yourself. What should you do?",
