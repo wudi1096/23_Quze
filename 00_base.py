@@ -106,7 +106,7 @@ game_3 = Qusetion("if all of your friend are going to a same college but you don
 game_4 = Qusetion("Your friend sends you a text that is hurtful and makes you feel bad about yourself. What should you do?",
                   print("A = Go beat up your friend and tell him to shut up "),
                   print("B = don't care and go do some thing you like "),
-                  print("C = go kill your self"),
+                  print("C = get sad do nothing"),
                   print("D = sent a same text back "), "b")
 
 # the total score calculation and print the score
